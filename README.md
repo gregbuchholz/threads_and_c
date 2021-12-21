@@ -1,4 +1,4 @@
-= Rust calling a C function with threads and Emscripten
+# Rust calling a C function with threads and Emscripten
 
 This example is a continuation in an exploration in trying to get threads with
 Rust working on the `wasm32-unknown-emscripten` target.  Some additional
