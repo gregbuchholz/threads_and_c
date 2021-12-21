@@ -9,7 +9,6 @@
 #include<unistd.h>
 #include<pthread.h>
 #include<emscripten.h>
-//#include<threads.h>
 
 void *test(void *args) {
     for(int x = 0; x < 10; ++x) {

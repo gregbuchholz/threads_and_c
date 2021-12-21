@@ -6,12 +6,6 @@ rustflags = [
         "-Lc",
 ]
 
-[target.x86_64-pc-windows-msvc]
-rustflags = [
-        "-C", "link-args=src/libtest.a",
-        "-Lc",
-]
-
 [target.wasm32-unknown-emscripten]
 rustflags = [
     "-C", "target-feature=+atomics,+bulk-memory",
