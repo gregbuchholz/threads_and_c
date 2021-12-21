@@ -15,14 +15,14 @@ information on previous work can be found at:
 
 ...complaining about various symbols not being part of thread local storage.
 Which confirms that the error doesn't just depend on starting threads in the
-Rust side of things (but of course needs to link against thread safe libaries).
+Rust side of things (but of course needs to link against thread safe libraries).
 This example only starts and uses threads on the C side.  
 
 There is also some interesting information on [this
 comment](https://github.com/emscripten-core/emscripten/issues/15722#issuecomment-988014981)
 in the Emscripten issue tracker.
 
-Try running the native working version on x86_64 Linux with:
+Try running the native working version on x86_64 Linux (and armv7/raspberrypi) with:
 
     make
 
